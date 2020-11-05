@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "glassdoor-scrape"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+selenium = "^3.141.0"
+pandas = "^1.1.4"
+numpy = "^1.19.3"
+nltk = "^3.5"
+matplotlib = "^3.3.2"
+ipykernel = "^5.3.4"
+nlpk = "^0.0.6"
+python-dotenv = "^0.15.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
